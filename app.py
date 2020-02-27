@@ -8,7 +8,7 @@ ENV = 'prod'
 
 if ENV =='dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:root@localhost/bookstore'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://USERNAME:PASSWORD@localhost/bookstore' # change the credentials for login and password
 else: # ENV = 'prod'
     app.debug = False
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://qasrejmhctbuen:65e3a5c223e13d3bfec557977d1f51ff20f6ea6ad4a46bde49833acda4d2672d@ec2-18-235-97-230.compute-1.amazonaws.com:5432/de019m5hdiju8'
