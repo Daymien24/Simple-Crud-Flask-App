@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color:#02061D !important;
+}
+
+.container {
+    background-color:#02061D !important;
+}
+
+.body {
+    background-color:#AB3922 !important;   
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+  font-size: 30px;
+}
